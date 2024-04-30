@@ -7,7 +7,7 @@ import datetime
 
 
 
-bot = telebot.TeleBot('6392098825:AAGuk-dTXk-5RJltiXoF1G9uslU2xWfYuoE')
+bot = telebot.TeleBot('')
 
 def check_email(email):
     regex = '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'
